@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content='width=device-width, intial-scale=1.0'>
+    <title>COVID-19 Data</title>
+    <link rel='stylesheet' href='style.css'>
+</head>
+<body>
+    <section id='main' class='data'>
+        <h1>COVID-19 Data</h1>    
+    <div id='country' class='data'><h1>Country:</h1>
+        <p id='countryText'></p>
+    </div>
+    <div id='deaths' class='data'><h1>Deaths:</h1>
+        <p id='deathsText'></p>
+    </div>
+    <div id='confirmed' class='data'><h1>Confirmed Cases:</h1>
+        <p id='confirmedText'></p>
+    </div>
+    <div id='recovered' class='data'><h1>Recovered:</h1>
+        <p id='recoveredText'></p>
+    </div>
+    <form id='btn'>
+        <button id='next' onclick='displayData()'>Next Country</button>
+    </form>
+    </section>
+<script src='api.js'></script>
+</body>    
+</html>
